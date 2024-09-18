@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-node-app
-        image: my-node-app:latest
+        image: girish895/my-node-app:latest  # Use the full image name from DockerHub
         ports:
         - containerPort: 3000
 
